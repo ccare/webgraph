@@ -7,10 +7,10 @@ Problem:
 
 My build plan:
 
-1) Write some code to grab example data from the web
-2) Create a naive implementation based on hashmaps
-3) Implement a tree based approach (possibly using a trie to exploit the fact I have string keys that have a hierarchical nature)
-4) Write some performance tests
+* Write some code to grab example data from the web
+* Create a naive implementation based on hashmaps
+* Implement a tree based approach (possibly using a trie to exploit the fact I have string keys that have a hierarchical nature)
+* Write some performance tests
 
 
 Good implementation as a trie
