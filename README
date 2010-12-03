@@ -1,0 +1,28 @@
+Someone gave me the problem of working out an efficient data structure for modelling links from and to URLs. I had a number of 'gut feeling' ideas for how to model this, but wanted to write some actual code to test my thoughts.
+
+Problem: 
+ - set of nodes labeled with URLs
+ - nodes connected by (directed) edges (url1 - linksto - url2)
+ - how should this be modelled to enable efficient querying about who links to who...
+
+My build plan:
+
+1) Write some code to grab example data from the web
+2) Create a naive implementation based on hashmaps
+3) Implement a tree based approach (possibly using a trie to exploit the fact I have string keys that have a hierarchical nature)
+4) Write some performance tests
+
+
+Good implementation as a trie
+
+To write
+
+1) wget scripts to harvest some data
+2) python scripts to build up a trie
+3) query functions
+
+'Clever' implementation using a trie and surrogate keys
+
+performance comparisons
+
+
