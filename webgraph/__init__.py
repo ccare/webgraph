@@ -1,3 +1,2 @@
 
-def determine_from_links(input):
-    return input;
+from LinkProcessing import determine_from_links
